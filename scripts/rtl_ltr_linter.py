@@ -18,6 +18,7 @@ Key Features:
 - Filters to ignore code blocks, inline code, and text within parentheses.
 - Specific check for RTL authors followed by LTR metadata.
 """
+import utils.session
 import sys
 import os
 import argparse
